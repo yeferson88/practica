@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUE PASO AYER</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header>QUE PASO AYER</header>
+    <nav>
+        <div>QUIENES SOMOS</div>
+        <div>INICIAR SESION</div>
+        <div>QUE OFRECEMOS</div>
+        <div>PQRS</div>
+        <div>DESCARGA LA APP</div>
+    </nav>
+    <main>
+        <ul>
+            <li><img src="investigacion6.jpg" alt="somos una organizacion que nos preocupamos por el tiempo que manejan nuestros usuarios"width=" 60%"height="auto" ></li>
+            <li><img src="investigacion7.jpg" alt="por favor ingrese usuario y contraseña"width=" 70%"height="140"></li>
+            <li><img src="investigacion8.jpg" alt="te ofrecemos las herramientas necesarias con el fin  de que trabajes  y asi ahoraras tiempo"width=" 70%"height="140"></li>
+            <li><img src="investigacion4.webp.jpg" alt="escribenos y asi solucionamos tus dudas y "width=" 70%"height="140"></li>
+            <li><img src="investigacion9.jpg" alt=""width=" 70%"height="140"></li>
+        </ul>
+        <ul>
+            <li>Cumplimos Tus Sueños</li>
+            <li>Ingrese Usuario y Contraseña</li>
+            <li>Click y Te Enseñamos Los Beneficios</li>
+            <li>Te Escuchamos</li>
+            <li>Descarga La Aplicacion De Manera Gratuita</li>
+        </ul>
+        <DIV class="descripcionQUEPASOAYER">Es un software que permite la interaccion con  el mundo real de los usuarios, teniendo acceso a toda la informacion  de diferentes procesos, esta informacion se puede descargar en tiempo real desde cualquier  lugar  de la geografia donde cuente con una conexion de internet</DIV>
+        <footer>
+            <div>bienvenido experimenta la realidad tecnologica </div>
+        </footer>
+    </main>
+    <script src="js.js"></script>
+    
+     <script>
+        alert ("BIENVENIDO A  ESTE SOFTWARE LEE NUESTRO CONTENIDO");
+     </script>
+     <script>
+        function showTime(){
+myDate = new Date();
+hours = myDate.getHours();
+minutes = myDate.getMinutes();
+seconds = myDate.getSeconds();
+if (hours < 10) hours = 0 + hours;
+if (minutes < 10) minutes = "0" + minutes;
+if (seconds < 10) seconds = "0" + seconds;
+$("#HoraActual").text(hours+ ":" +minutes+ ":" +seconds);
+setTimeout("showTime()", 1000);
+
+}
+        </script>
+            
+</body>
+
+</html>
